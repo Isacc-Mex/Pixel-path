@@ -176,4 +176,37 @@ graph TB
     PaginaPrincipal -->|Navega a| Minijuegos[<center>Minijuegos</center>]
     Minijuegos -->|Recolecta datos| AnalisisDatos[<center>Análisis de Datos</center>]
     AnalisisDatos -->|Genera recomendaciones| PaginaPrincipal
+# PixelPath
+
+PixelPath es una plataforma de autoayuda diseñada para brindar apoyo emocional y mental a los jugadores mediante minijuegos, consejos personalizados y un sistema de inteligencia artificial. Utiliza una estética pixel art para crear un entorno amigable y acogedor, combinando tecnología avanzada con principios de bienestar personal.
+
+## Objetivos
+- Brindar una plataforma accesible y atractiva para mejorar el bienestar de los jugadores.
+- Utilizar la estética pixel art para crear una experiencia visual única y acogedora.
+- Integrar inteligencia artificial para personalizar la experiencia del usuario y ofrecer ayuda específica basada en datos.
+
+## Funcionalidades Principales
+- **Pantalla de Carga Interactiva:** Bienvenida visual y mensaje inicial al acceder a la plataforma.
+- **Página Principal Personalizada:** Incluye un personaje interactivo y menú de navegación intuitivo.
+- **Minijuegos y Consejos:** Diversos juegos y recomendaciones para el bienestar del usuario.
+- **Jardín Virtual:** Espacio personalizado para reflejar el progreso personal.
+- **Análisis de Datos mediante IA:** Personalización de la experiencia a través del análisis de datos.
+- **Comunidad en Línea:** Espacio para compartir experiencias y consejos entre usuarios.
+
+## Consideraciones Legales y Éticas
+
+PixelPath se compromete a cumplir con las normativas legales y prácticas éticas. A continuación se detallan nuestras políticas:
+
+### GDPR (Reglamento General de Protección de Datos)
+
+El GDPR es una regulación de la Unión Europea que protege la privacidad y los datos personales de los individuos dentro de la UE y el Espacio Económico Europeo. Establece estándares para la recopilación, el almacenamiento, el procesamiento y la gestión de datos personales.
+
+- **Cumplimiento:** PixelPath cumple con el GDPR en relación con la recopilación, almacenamiento y procesamiento de datos personales de los usuarios ubicados en la Unión Europea.
+  
+- **Derechos de los Usuarios:** Los usuarios tienen derecho a acceder a sus datos personales, corregir información incorrecta y solicitar la eliminación de sus datos si así lo desean.
+  
+- **Consentimiento:** Obtendremos el consentimiento explícito de los usuarios antes de recopilar cualquier dato personal o aplicar análisis de datos mediante inteligencia artificial que pueda influir en su experiencia en la plataforma.
+
+
+
 
