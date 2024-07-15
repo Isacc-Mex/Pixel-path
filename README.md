@@ -10,7 +10,7 @@ PixelPath es una plataforma de autoayuda con temática de videojuegos y estétic
 
 - Nuestra visión en PixelPath es ser líderes en la integración de videojuegos y salud mental, destacándonos por nuestra capacidad para ofrecer un entorno virtual que no solo entretiene, sino que también promueve el crecimiento personal y el bienestar de nuestros usuarios. Nos esforzamos por expandir continuamente nuestras funcionalidades basadas en datos y tecnología de inteligencia artificial, manteniendo siempre una interfaz intuitiva y atractiva que refleje nuestra estética pixel art distintiva.
 
-  **Valores de PixelPath**
+# Valores de PixelPath
 - Innovación: Nos comprometemos a innovar constantemente en el campo de la salud mental y emocional, utilizando tecnología de vanguardia para ofrecer soluciones efectivas a nuestros usuarios.
 
   **Accesibilidad**:
