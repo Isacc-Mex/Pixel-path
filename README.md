@@ -1,3 +1,5 @@
+
+![](https://github.com/Isacc-Mex/Pixel-path/blob/main/Pixel-Path/cabezera.png)
 # PixelPath
 
 PixelPath es una plataforma de autoayuda con temática de videojuegos y estética pixel art, diseñada para brindar apoyo emocional y mental a los jugadores mediante minijuegos, consejos y un sistema de inteligencia artificial que personaliza la experiencia del usuario.
