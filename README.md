@@ -151,25 +151,6 @@ PixelPath busca llenar el vacío existente en recursos de autoayuda específicam
 5. **Mantenimiento:**
    - Código modular y documentado para facilitar futuras actualizaciones.
    - Soporte y resolución de problemas técnicos.
-   
-## Consideraciones Legales y Éticas
-
-# PixelPath
-
-PixelPath es una plataforma de autoayuda diseñada para brindar apoyo emocional y mental a los jugadores mediante minijuegos, consejos personalizados y un sistema de inteligencia artificial. Utiliza una estética pixel art para crear un entorno amigable y acogedor, combinando tecnología avanzada con principios de bienestar personal.
-
-## Objetivos
-- Brindar una plataforma accesible y atractiva para mejorar el bienestar de los jugadores.
-- Utilizar la estética pixel art para crear una experiencia visual única y acogedora.
-- Integrar inteligencia artificial para personalizar la experiencia del usuario y ofrecer ayuda específica basada en datos.
-
-## Funcionalidades Principales
-- **Pantalla de Carga Interactiva:** Bienvenida visual y mensaje inicial al acceder a la plataforma.
-- **Página Principal Personalizada:** Incluye un personaje interactivo y menú de navegación intuitivo.
-- **Minijuegos y Consejos:** Diversos juegos y recomendaciones para el bienestar del usuario.
-- **Jardín Virtual:** Espacio personalizado para reflejar el progreso personal.
-- **Análisis de Datos mediante IA:** Personalización de la experiencia a través del análisis de datos.
-- **Comunidad en Línea:** Espacio para compartir experiencias y consejos entre usuarios.
 
 ## Consideraciones Legales y Éticas
 
