@@ -214,7 +214,32 @@ El GDPR es una regulación de la Unión Europea que protege la privacidad y los 
   
 - **Consentimiento:** Obtendremos el consentimiento explícito de los usuarios antes de recopilar cualquier dato personal o aplicar análisis de datos mediante inteligencia artificial que pueda influir en su experiencia en la plataforma.
 
+  ## Plan de Trabajo
 
+| Fase                         | Actividades Principales                                                                 | Resultados Esperados                                                           |
+|------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Planificación**            | - Definición de objetivos y alcance del proyecto.                                         | - Documento general del proyecto.                                              |
+|                              | - Análisis de requisitos funcionales y no funcionales.                                     | - Plan de proyecto detallado.                                                  |
+|                              | - Identificación de riesgos y planificación de mitigaciones.                               |                                                                                |
+| **Análisis y Diseño**        | - Modelado de la arquitectura del sistema.                                                | - Diagramas de clases, despliegue, actividades y secuencia.                    |
+|                              | - Diseño de la experiencia de usuario.                                                    | - Diseño detallado del sistema.                                                |
+| **Prototipado**              | - Desarrollo de prototipos de la interfaz de usuario.                                     | - Prototipo funcional de la plataforma PixelPath.                              |
+| **Implementación**           | - Desarrollo del código fuente de PixelPath.                                              | - Plataforma PixelPath funcional y lista para pruebas.                         |
+|                              | - Integración con el sistema de inteligencia artificial y base de datos.                  |                                                                                |
+|                              | - Implementación de funcionalidades y diseño final.                                        |                                                                                |
+| **Pruebas**                  | - Pruebas de componentes y su integración.                                                | - Informe de pruebas detallado.                                                |
+|                              | - Pruebas de usabilidad y aceptación con usuarios.                                        | - Versión final de PixelPath lista para despliegue.                            |
+| **Despliegue y Mantenimiento**| - Despliegue de PixelPath en el entorno de producción.                                    | - PixelPath en producción y disponible para usuarios.                          |
+|                              | - Monitoreo continuo del rendimiento y mantenimiento preventivo.                          | - Plan de mantenimiento establecido y documentado.                             |
+
+  
+## Matriz de responsabilidad
+
+graph TD;
+    A[Cliente (Propietario de PixelPath)] -->|Proveer requisitos, validación de prototipos| B[Cristian Isacc Moreno Jiménez];
+    B -->|Análisis de requisitos y definición de objetivos| C[Diseño y desarrollo de PixelPath];
+    C -->|Implementación de inteligencia artificial y funcionalidades| D[Pruebas unitarias y de integración];
+    D -->|Documentación técnica y mantenimiento continuo| A;
 
 
 
