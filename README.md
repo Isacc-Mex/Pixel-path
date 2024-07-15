@@ -2,6 +2,44 @@
 
 PixelPath es una plataforma de autoayuda con temática de videojuegos y estética pixel art, diseñada para brindar apoyo emocional y mental a los jugadores mediante minijuegos, consejos y un sistema de inteligencia artificial que personaliza la experiencia del usuario.
 
+# Misión de PixelPath
+
+- En PixelPath, nuestra misión es proporcionar una plataforma de autoayuda innovadora y accesible para jugadores de videojuegos, utilizando la estética pixel art para crear un entorno acogedor. Nuestro objetivo es mejorar el bienestar emocional y mental de nuestros usuarios mediante la integración de tecnología de inteligencia artificial, que personaliza la experiencia del usuario y ofrece apoyo específico basado en datos recopilados a través de minijuegos interactivos. Nos comprometemos a llenar el vacío existente en recursos de autoayuda diseñados específicamente para la comunidad de jugadores, mejorando así su calidad de vida.
+
+# Visión de PixelPath
+
+- Nuestra visión en PixelPath es ser líderes en la integración de videojuegos y salud mental, destacándonos por nuestra capacidad para ofrecer un entorno virtual que no solo entretiene, sino que también promueve el crecimiento personal y el bienestar de nuestros usuarios. Nos esforzamos por expandir continuamente nuestras funcionalidades basadas en datos y tecnología de inteligencia artificial, manteniendo siempre una interfaz intuitiva y atractiva que refleje nuestra estética pixel art distintiva.
+
+# Valores de PixelPath
+- Innovación: Nos comprometemos a innovar constantemente en el campo de la salud mental y emocional, utilizando tecnología de vanguardia para ofrecer soluciones efectivas a nuestros usuarios.
+
+- **Accesibilidad**:
+-  Valoramos la accesibilidad y la inclusión, asegurando que nuestra plataforma sea fácilmente utilizada por una amplia gama de jugadores de videojuegos.
+
+- **Integridad:**
+-  Nos guiamos por los más altos estándares éticos en la recopilación y protección de datos personales de nuestros usuarios, garantizando su privacidad y seguridad en todo momento.
+
+- **Comunidad:**
+-  Fomentamos una comunidad en línea positiva y de apoyo, donde los usuarios pueden compartir experiencias, consejos y motivaciones para promover el bienestar colectivo.
+ ## Cronograma de Actividades
+
+| Fase                            | Descripción de Actividades                                            | Duración Estimada |
+|---------------------------------|-----------------------------------------------------------------------|-------------------|
+| **Fase 1: Planificación y Diseño** | - Definición de requisitos funcionales y no funcionales.               | 2 meses           |
+|                                  | - Diseño de la interfaz de usuario y experiencia de usuario.           |                   |
+|                                  | - Desarrollo del concepto de estética pixel art y creación de personajes.|                   |
+| **Fase 2: Desarrollo de la Plataforma** | - Implementación de la pantalla de carga interactiva y página principal. | 4 meses           |
+|                                  | - Integración de minijuegos y sistema de consejos.                    |                   |
+|                                  | - Desarrollo del jardín virtual y funcionalidades de análisis de datos mediante inteligencia artificial.| |
+| **Fase 3: Pruebas y Optimización** | - Pruebas de rendimiento y usabilidad en diferentes navegadores y dispositivos.| 1 mes |
+|                                  | - Optimización del tiempo de carga y respuesta de la plataforma.       |                   |
+|                                  | - Revisión de seguridad y protección de datos.                        |                   |
+| **Fase 4: Lanzamiento y Evaluación** | - Lanzamiento inicial y promoción de la plataforma.                   | Ongoing           |
+|                                  | - Recolección de feedback de los usuarios y evaluación de la experiencia.|                   |
+|                                  | - Actualizaciones continuas basadas en retroalimentación y mantenimiento del sistema.|  |
+
+
+
 ## Objetivos
 
 - Brindar una plataforma de autoayuda accesible y atractiva para los jugadores.
