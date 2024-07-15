@@ -233,14 +233,6 @@ El GDPR es una regulación de la Unión Europea que protege la privacidad y los 
 |                              | - Monitoreo continuo del rendimiento y mantenimiento preventivo.                          | - Plan de mantenimiento establecido y documentado.                             |
 
   
-## Matriz de responsabilidad
-
-graph TD;
-    A[Cliente (Propietario de PixelPath)] -->|Proveer requisitos, validación de prototipos| B[Cristian Isacc Moreno Jiménez];
-    B -->|Análisis de requisitos y definición de objetivos| C[Diseño y desarrollo de PixelPath];
-    C -->|Implementación de inteligencia artificial y funcionalidades| D[Pruebas unitarias y de integración];
-    D -->|Documentación técnica y mantenimiento continuo| A;
-
 
 
 ## Diagrama de Contexto
