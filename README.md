@@ -98,13 +98,9 @@ PixelPath es una plataforma de autoayuda con temática de videojuegos y estétic
 
 PixelPath está dirigido principalmente a jugadores de videojuegos que buscan mejorar su bienestar emocional y mental. El mercado incluye tanto a jugadores casuales como a aquellos que dedican mucho tiempo a esta actividad.
 
-## Potencial
-
-El proyecto tiene un gran potencial debido al creciente interés en la salud mental y emocional, especialmente dentro de la comunidad de jugadores. La combinación de autoayuda y tecnología de inteligencia artificial lo hace único y relevante.
-
 ## Justificación
 
-PixelPath busca llenar el vacío existente en recursos de autoayuda específicamente diseñados para jugadores. Utilizando una estética atractiva y funcionalidades personalizadas, el proyecto pretende ofrecer un apoyo efectivo y accesible, mejorando la calidad de vida de sus usuarios.
+PixelPath surge para abordar la creciente necesidad de recursos de autoayuda diseñados específicamente para la comunidad de jugadores, combinando la accesibilidad de una plataforma digital con la estética acogedora del arte pixelado. Con un enfoque en la salud mental y emocional, PixelPath se posiciona como una herramienta innovadora que utiliza inteligencia artificial para personalizar la experiencia del usuario y proporcionar apoyo adaptado a las necesidades individuales.
 
 ## Requerimientos Funcionales
 
