@@ -151,9 +151,81 @@ PixelPath busca llenar el vacío existente en recursos de autoayuda específicam
 5. **Mantenimiento:**
    - Código modular y documentado para facilitar futuras actualizaciones.
    - Soporte y resolución de problemas técnicos.
-   - ## Consideraciones Legales y Éticas
+   
+## Consideraciones Legales y Éticas
+
+# PixelPath
+
+PixelPath es una plataforma de autoayuda diseñada para brindar apoyo emocional y mental a los jugadores mediante minijuegos, consejos personalizados y un sistema de inteligencia artificial. Utiliza una estética pixel art para crear un entorno amigable y acogedor, combinando tecnología avanzada con principios de bienestar personal.
+
+## Objetivos
+- Brindar una plataforma accesible y atractiva para mejorar el bienestar de los jugadores.
+- Utilizar la estética pixel art para crear una experiencia visual única y acogedora.
+- Integrar inteligencia artificial para personalizar la experiencia del usuario y ofrecer ayuda específica basada en datos.
+
+## Funcionalidades Principales
+- **Pantalla de Carga Interactiva:** Bienvenida visual y mensaje inicial al acceder a la plataforma.
+- **Página Principal Personalizada:** Incluye un personaje interactivo y menú de navegación intuitivo.
+- **Minijuegos y Consejos:** Diversos juegos y recomendaciones para el bienestar del usuario.
+- **Jardín Virtual:** Espacio personalizado para reflejar el progreso personal.
+- **Análisis de Datos mediante IA:** Personalización de la experiencia a través del análisis de datos.
+- **Comunidad en Línea:** Espacio para compartir experiencias y consejos entre usuarios.
+
+## Consideraciones Legales y Éticas
 
 PixelPath se compromete a cumplir con las normativas legales y prácticas éticas. A continuación se detallan nuestras políticas:
+
+### Política de Privacidad
+
+PixelPath se compromete a proteger la privacidad de los usuarios y cumple con todas las leyes y regulaciones aplicables relacionadas con la protección de datos personales. A continuación, se detallan nuestras prácticas y políticas:
+
+- **Recopilación de Datos:** PixelPath recopila información personal limitada y relevante, como datos de perfil y preferencias de usuario, necesarios para personalizar la experiencia del usuario y mejorar nuestros servicios.
+  
+- **Uso de Datos:** Los datos recopilados se utilizan para proporcionar funcionalidades personalizadas, como recomendaciones de juegos, consejos de bienestar y análisis de progreso personal. Estos datos también se utilizan para mejorar la plataforma y sus servicios.
+  
+- **Seguridad de Datos:** Implementamos medidas de seguridad técnicas y organizativas para proteger los datos personales de los usuarios contra accesos no autorizados, pérdida o destrucción.
+
+### Cumplimiento Legal
+
+PixelPath cumple con las siguientes normativas legales y regulaciones:
+
+- **GDPR:** Si eres un usuario ubicado en la Unión Europea, PixelPath cumple con las disposiciones del Reglamento General de Protección de Datos (GDPR) con respecto a la recopilación, almacenamiento y procesamiento de datos personales.
+  
+- **Otras Jurisdicciones:** Además del GDPR, PixelPath se adhiere a las leyes locales e internacionales aplicables relacionadas con la privacidad de datos y la protección de información personal.
+
+### Transparencia y Consentimiento
+
+- **Información Transparente:** Proporcionamos información clara y accesible sobre cómo se utilizan los datos personales y cómo afecta esto a la experiencia del usuario en PixelPath.
+  
+- **Consentimiento del Usuario:** Obtendremos el consentimiento explícito de los usuarios antes de recopilar cualquier dato personal o aplicar análisis de datos mediante inteligencia artificial que pueda influir en su experiencia en la plataforma.
+
+### Ética en el Uso de IA
+
+PixelPath se compromete a seguir prácticas éticas en el uso de inteligencia artificial:
+
+- **Imparcialidad y Sesgo:** Implementamos algoritmos de IA que son imparciales y libres de sesgos discriminatorios para garantizar tratamientos equitativos y justos para todos los usuarios.
+  
+- **Transparencia en las Decisiones:** Donde la IA pueda influir significativamente en las decisiones de los usuarios (por ejemplo, recomendaciones de bienestar mental), proporcionaremos explicaciones claras y transparentes sobre cómo se toman estas decisiones.
+
+### Responsabilidad y Cumplimiento
+
+- **Responsabilidad del Desarrollador:** PixelPath asume la responsabilidad de cualquier uso indebido o daño causado por la implementación de la plataforma.
+  
+- **Auditorías y Evaluaciones Éticas:** Realizamos auditorías y evaluaciones éticas periódicas para garantizar que el uso de la inteligencia artificial en PixelPath cumpla con nuestros estándares éticos y legales.
+
+### Derechos de los Usuarios
+
+- **Acceso y Rectificación:** Los usuarios tienen derecho a acceder a sus datos personales y corregir cualquier información inexacta.
+  
+- **Portabilidad de Datos:** Facilitamos la portabilidad de datos, permitiendo a los usuarios transferir sus datos personales a otro servicio si así lo desean.
+
+### Comunicación y Educación
+
+- **Comunicación Clara:** Proporcionamos información clara y accesible sobre nuestras políticas de privacidad, el uso de inteligencia artificial y cómo los usuarios pueden gestionar sus preferencias y derechos.
+  
+- **Educación del Usuario:** Ofrecemos recursos educativos para promover el uso responsable de PixelPath y maximizar los beneficios de la plataforma de manera segura y ética.
+
+
 
 ### GDPR (Reglamento General de Protección de Datos)
 
