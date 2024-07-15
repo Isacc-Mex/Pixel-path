@@ -46,7 +46,7 @@ PixelPath es una plataforma de autoayuda con temática de videojuegos y estétic
 - Utilizar la estética pixel art para crear un entorno amigable y acogedor.
 - Integrar inteligencia artificial para personalizar la experiencia y proporcionar ayuda específica basada en datos.
 
-  ### Objetivos Específicos de PixelPath
+### Objetivos Específicos de PixelPath
 
 1. **Desarrollar una pantalla de carga interactiva:**
    - Crear una experiencia de bienvenida visualmente atractiva con personajes pixelados y un mensaje de bienvenida.
