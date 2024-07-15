@@ -46,6 +46,39 @@ PixelPath es una plataforma de autoayuda con temática de videojuegos y estétic
 - Utilizar la estética pixel art para crear un entorno amigable y acogedor.
 - Integrar inteligencia artificial para personalizar la experiencia y proporcionar ayuda específica basada en datos.
 
+  ### Objetivos Específicos de PixelPath
+
+1. **Desarrollar una pantalla de carga interactiva:**
+   - Crear una experiencia de bienvenida visualmente atractiva con personajes pixelados y un mensaje de bienvenida.
+
+2. **Implementar una página principal personalizada:**
+   - Diseñar una interfaz intuitiva que incluya un personaje interactivo y un menú de navegación tipo hamburguesa.
+   - Incluir secciones de minijuegos y consejos para mejorar el bienestar emocional de los usuarios.
+
+3. **Integrar minijuegos y consejos interactivos:**
+   - Desarrollar minijuegos que no solo entretengan, sino que también recopilen datos para personalizar la experiencia del usuario.
+   - Implementar un sistema de consejos aleatorios proporcionados por un personaje interactivo para mejorar el bienestar del usuario.
+
+4. **Crear un jardín virtual interactivo:**
+   - Permitir a los usuarios interactuar y cuidar un jardín virtual como metáfora de su crecimiento personal y bienestar.
+
+5. **Analizar datos mediante inteligencia artificial:**
+   - Utilizar IA para analizar datos recopilados de los minijuegos y proporcionar recomendaciones personalizadas basadas en el comportamiento del usuario.
+
+6. **Establecer una comunidad en línea:**
+   - Crear un espacio donde los usuarios puedan compartir experiencias, consejos y apoyo mutuo.
+
+7. **Optimizar la usabilidad y el rendimiento:**
+   - Asegurar que la plataforma sea fácil de navegar y compatible con diferentes dispositivos y navegadores.
+   - Optimizar el tiempo de carga de la página y la respuesta a las interacciones del usuario.
+
+8. **Garantizar la seguridad y protección de datos:**
+   - Implementar medidas de seguridad robustas para proteger los datos personales de los usuarios y prevenir accesos no autorizados.
+
+9. **Mantener el sistema y ofrecer soporte técnico:**
+   - Desarrollar un código modular y bien documentado que facilite futuras actualizaciones y resolución de problemas técnicos.
+
+
 ## Alcances
 
 - **Pantalla de Carga Interactiva:** Al acceder a PixelPath, los usuarios son recibidos con una pantalla de bienvenida que incluye un personaje pixelado y un fondo temático. Esta pantalla no solo sirve de introducción visual, sino que también ofrece un mensaje de bienvenida y actúa como una transición hacia la página principal.
