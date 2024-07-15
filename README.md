@@ -151,6 +151,23 @@ PixelPath busca llenar el vacío existente en recursos de autoayuda específicam
 5. **Mantenimiento:**
    - Código modular y documentado para facilitar futuras actualizaciones.
    - Soporte y resolución de problemas técnicos.
+   - ## Consideraciones Legales y Éticas
+
+PixelPath se compromete a cumplir con las normativas legales y prácticas éticas. A continuación se detallan nuestras políticas:
+
+### GDPR (Reglamento General de Protección de Datos)
+
+El GDPR es una regulación de la Unión Europea que protege la privacidad y los datos personales de los individuos dentro de la UE y el Espacio Económico Europeo. Establece estándares para la recopilación, el almacenamiento, el procesamiento y la gestión de datos personales.
+
+- **Cumplimiento:** PixelPath cumple con el GDPR en relación con la recopilación, almacenamiento y procesamiento de datos personales de los usuarios ubicados en la Unión Europea.
+  
+- **Derechos de los Usuarios:** Los usuarios tienen derecho a acceder a sus datos personales, corregir información incorrecta y solicitar la eliminación de sus datos si así lo desean.
+  
+- **Consentimiento:** Obtendremos el consentimiento explícito de los usuarios antes de recopilar cualquier dato personal o aplicar análisis de datos mediante inteligencia artificial que pueda influir en su experiencia en la plataforma.
+
+
+
+
 
 ## Diagrama de Contexto
 
@@ -176,22 +193,6 @@ graph TB
     PaginaPrincipal -->|Navega a| Minijuegos[<center>Minijuegos</center>]
     Minijuegos -->|Recolecta datos| AnalisisDatos[<center>Análisis de Datos</center>]
     AnalisisDatos -->|Genera recomendaciones| PaginaPrincipal
-
-
-## Consideraciones Legales y Éticas
-
-PixelPath se compromete a cumplir con las normativas legales y prácticas éticas. A continuación se detallan nuestras políticas:
-
-### GDPR (Reglamento General de Protección de Datos)
-
-El GDPR es una regulación de la Unión Europea que protege la privacidad y los datos personales de los individuos dentro de la UE y el Espacio Económico Europeo. Establece estándares para la recopilación, el almacenamiento, el procesamiento y la gestión de datos personales.
-
-- **Cumplimiento:** PixelPath cumple con el GDPR en relación con la recopilación, almacenamiento y procesamiento de datos personales de los usuarios ubicados en la Unión Europea.
-  
-- **Derechos de los Usuarios:** Los usuarios tienen derecho a acceder a sus datos personales, corregir información incorrecta y solicitar la eliminación de sus datos si así lo desean.
-  
-- **Consentimiento:** Obtendremos el consentimiento explícito de los usuarios antes de recopilar cualquier dato personal o aplicar análisis de datos mediante inteligencia artificial que pueda influir en su experiencia en la plataforma.
-
 
 
 
