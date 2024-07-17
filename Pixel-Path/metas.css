@@ -1,0 +1,129 @@
+/* Estilos para la página extra */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1A1A2E;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #6A2C70;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.header h1 {
+    margin: 0;
+    flex: 1; 
+    text-align: left; 
+    color: #FFFFFF;
+}
+
+.header .buttons-container {
+    position: absolute;
+    top: 40px; 
+    right: 70px; 
+    display: flex;
+    gap: 10px; 
+}
+
+.header .buttons-container button {
+    background-color: #1F2041;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.header .buttons-container button:hover {
+    background-color: #6A2C70;
+}
+
+/* Estilos del contenido principal */
+.main-content {
+    padding: 40px 0;
+}
+
+.section {
+    background-color: #FFD369;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.section h2 {
+    margin-top: 0;
+    color: #FFFFFF;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.profile-info, .profile-edit {
+    background-color: #E94560;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.profile-info h3, .profile-edit h3 {
+    margin-top: 0;
+    color: #FFFFFF;
+}
+
+.profile-edit form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.profile-edit form input[type="text"],
+.profile-edit form input[type="email"],
+.profile-edit form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1A1A2E;
+    color: #FFFFFF;
+}
+
+.profile-edit form button {
+    background-color: #1F2041;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.profile-edit form button:hover {
+    background-color: #6A2C70;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #6A2C70;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #FFFFFF;
+}

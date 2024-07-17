@@ -3,28 +3,23 @@
 <head>
     <link rel="icon" href="cabezera.png" type="image/png" >
     <style>
-        #character {
+#character {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 20%; /* Equivalente a bottom: 10px; */
+    right: 1%; /* Equivalente a right: 10px; */
     z-index: 1000;
     transform: scaleX(-1);
-    
 }
+
+
 
 
 #character img {
-    width: 100px;
+    width: 12.5%; /* Equivalente a width: 100px; */
     height: auto;
 }
 
-
-#character img {
-    width: 100px;
-    height: auto;
-}
-
-        body {
+body {
     font-family: Arial, sans-serif;
     background-color: #1A1A2E;
     color: #FFFFFF;
@@ -32,21 +27,27 @@
     padding: 0;
 }
 
+
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2.5%; /* Equivalente a padding: 20px; */
 }
-
 /* Estilos del encabezado */
 .header {
     background-color: #6A2C70;
-    padding: 10px 0;
+    padding: 1.25% 0; /* Equivalente a padding: 10px 0; */
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header h1 {
     margin: 0;
+    flex: 1;
+    text-align: left;
+    color: #FFFFFF;
 }
 
 /* Estilos del contenido principal */
@@ -101,8 +102,8 @@
 }
 .button-container{
     position: absolute;
-    top: 446px; /* Distancia desde la parte superior */
-    right: 880px; /* Distancia desde el lado derecho */
+    top: 51.4%; /* Distancia desde la parte superior */
+    right: 60%;  /* Distancia desde el lado derecho */
     border: none;
     border-radius: 3px;
     display: flex;
@@ -116,14 +117,14 @@
 .footer {
     background-color: #6A2C70;
     text-align: center;
-    padding: 10px 0;
+    padding: 1.25% 0; /* Equivalente a padding: 10px 0; */
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 .button-container button {
             background-color: #1F2041;
-            color: #000000;
+            color: #ffffff;
             border: none;
             padding: 10px 20px;
             cursor: pointer;
@@ -151,25 +152,26 @@
         }
 
         .header .buttons-container {
-            position: absolute;
-    top: 40px; /* Distancia desde la parte superior */
-    right: 70px; 
-            display: flex;
-            gap: 10px; /* Espacio entre los botones */
-        }
+    position: absolute;
+    top: 5%; /* Equivalente a top: 40px; */
+    right: 8.75%; /* Equivalente a right: 70px; */
+    display: flex;
+    gap: 1.25%; /* Equivalente a gap: 10px; */
+}
 
-        .header .buttons-container button {
-            background-color: #1F2041;
-            color: #FFFFFF;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 3px;
-        }
+.header .buttons-container button {
+    background-color: #1F2041;
+    color: #FFFFFF;
+    border: none;
+    padding: 1.25% 2.5%; /* Equivalente a padding: 10px 20px; */
+    cursor: pointer;
+    border-radius: 3px;
+}
 
-        .header .buttons-container button:hover {
-            background-color: #6A2C70;
-        }
+      
+.header .buttons-container button:hover {
+    background-color: #6A2C70;
+}
 
         .header .buttons-container .button-left {
 
@@ -225,9 +227,9 @@
                         <button type="submit">Iniciar sesión</button>
                     </form>
                     
-                    <div class="button-container">
-                        <button onclick="location.href='registro.html';" class="button-left">¿Nuevo?</button>
-                    </div>
+                 <div class="button-container"><button onclick="location.href='registro.html';" class="button-left">¿Nuevo?</button></div>
+                        
+                    
                     
                    
                 </div>
