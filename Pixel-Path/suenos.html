@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueños - PixelPath</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="cabezera.png" type="image/png" >
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>PixelPath</h1>
+            <div class="buttons-container">
+                <button onclick="location.href='about.html';" class="button-right">Sobre mí</button>
+                <button onclick="location.href='borrador.html';" class="button-left">Cerrar sesión</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="section">
+            <div class="container">
+                <h2>Sueños</h2>
+                <div class="section dreams-section">
+                    <h2>Mis Sueños</h2>
+                    <div class="dreams-container" id="dreams-container">
+                        <!-- Los sueños se añadirán dinámicamente aquí -->
+                    </div>
+                    <form class="add-dream-form" id="add-dream-form">
+                        <label for="dream-content">Nuevo Sueño</label>
+                        <textarea id="dream-content" name="dream-content" rows="4" required></textarea>
+                        <button type="submit">Agregar Sueño</button>
+                    </form>
+                </div>
+                
+                <script>
+                    // Captura el formulario y el contenedor de sueños
+                    const form = document.getElementById('add-dream-form');
+                    const dreamsContainer = document.getElementById('dreams-container');
+                
+                    // Manejador para el evento submit del formulario
+                    form.addEventListener('submit', function(event) {
+                        event.preventDefault(); // Evita que el formulario se envíe y recargue la página
+                
+                        // Captura el contenido del sueño desde el textarea
+                        const dreamContent = document.getElementById('dream-content').value;
+                
+                        // Valida que el contenido del sueño no esté vacío
+                        if (dreamContent.trim() === '') {
+                            alert('Por favor ingresa un sueño válido.');
+                            return;
+                        }
+                
+                        // Crea un nuevo elemento de sueño
+                        const dreamElement = document.createElement('div');
+                        dreamElement.classList.add('dream');
+                        dreamElement.innerHTML = `
+                            <div class="dream-content">
+                                <h3>Sueño</h3>
+                                <p>${dreamContent}</p>
+                            </div>
+                            <div class="dream-actions">
+                                <button class="edit-button">Editar</button>
+                                <button class="delete-button">Eliminar</button>
+                            </div>
+                        `;
+                
+                        // Agrega el nuevo sueño al contenedor de sueños
+                        dreamsContainer.appendChild(dreamElement);
+                
+                        // Limpia el textarea después de agregar el sueño
+                        document.getElementById('dream-content').value = '';
+                    });
+                </script>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 PixelPath. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

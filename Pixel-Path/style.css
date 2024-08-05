@@ -1,0 +1,730 @@
+/* Estilos para la sección de sueños */
+.dreams-section {
+    background-color: #4A4E69;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.dreams-section h2 {
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.dreams-container {
+    margin-top: 10px;
+}
+
+.dream {
+    background-color: #6A2C70;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dream h3 {
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.dream p {
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.dream-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-button, .delete-button {
+    background-color: #1F2041;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #6A2C70;
+}
+
+.add-dream-form {
+    margin-top: 20px;
+}
+
+.add-dream-form label {
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.add-dream-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+.add-dream-form button {
+    background-color: #1F2041;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.add-dream-form button:hover {
+    background-color: #6A2C70;
+}
+
+/* estilo del juego */
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  font-size: 20px;
+  
+}
+ .time{
+    color: #1A1A2E;
+}
+ .flips{
+    color: #1A1A2E;
+}
+
+::selection{
+  color: #fff;
+  background: #6563ff;
+}
+.wrapper{
+  padding: 25px;
+  background: #7c00ad;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.cards, .card, .view, .details, p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards{
+  height: 350px;
+  width: 350px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards .card{
+  cursor: pointer;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  height: calc(100% / 4 - 10px);
+  width: calc(100% / 4 - 10px);
+}
+.card.shake{
+  animation: shake 0.35s ease-in-out;
+}
+@keyframes shake {
+  0%, 100%{
+    transform: translateX(0);
+  }
+  20%{
+    transform: translateX(-13px);
+  }
+  40%{
+    transform: translateX(13px);
+  }
+  60%{
+    transform: translateX(-8px);
+  }
+  80%{
+    transform: translateX(8px);
+  }
+}
+.cards .card .view{
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  background: #fff;
+  border-radius: 7px;
+  backface-visibility: hidden;
+  transition: transform 0.25s linear;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.card .front-view img{
+  max-width: 17px;
+}
+.card .back-view{
+  transform: rotateY(-180deg);
+}
+.card .back-view img{
+  max-width: 40px;
+}
+.card.flip .front-view{
+  transform: rotateY(180deg);
+}
+.card.flip .back-view{
+  transform: rotateY(0);
+}
+
+.details{
+  width: 100%;
+  margin-top: 15px;
+  padding: 0 20px;
+  border-radius: 7px;
+  background: #fff;
+  height: calc(100% / 4 - 30px);
+  justify-content: space-between;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.details p{
+  font-size: 18px;
+  height: 17px;
+  padding-right: 18px;
+  border-right: 1px solid #ccc;
+}
+.details p span{
+  margin-left: 8px;
+}
+.details p b{
+  font-weight: 500;
+}
+.details button{
+  cursor: pointer;
+  font-size: 14px;
+  color: #6563ff;
+  border-radius: 4px;
+  padding: 4px 11px;
+  background: #fff;
+  border: 2px solid #6563ff;
+  transition: 0.3s ease;
+}
+.details button:hover{
+  color: #fff;
+  background: #6563ff;
+}
+
+@media screen and (max-width: 700px) {
+  .cards{
+    height: 350px;
+    width: 350px;
+  }
+  .card .front-view img{
+    max-width: 16px;
+  }
+  .card .back-view img{
+    max-width: 40px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .cards{
+    height: 300px;
+    width: 300px;
+  }
+  .card .back-view img{
+    max-width: 35px;
+  }
+  .details{
+    margin-top: 10px;
+    padding: 0 15px;
+    height: calc(100% / 4 - 20px);
+  }
+  .details p{
+    height: 15px;
+    font-size: 17px;
+    padding-right: 13px;
+  }
+  .details button{
+    font-size: 13px;
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    background: #6563ff;
+  }
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A1A2E;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #FFD369;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Estilos del contenido principal */
+.main-content {
+    padding: 40px 0;
+}
+
+.section {
+    background-color: #6A2C70; /* Color morado oscuro */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.login-form {
+    background-color: #B83B5E; /* Color rosa oscuro */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.login-form button {
+    background-color: #1F2041;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.login-form button:hover {
+    background-color: #6A2C70;
+}
+
+
+/* Estilos del pie de página */
+.pagina_principal .container {
+    background-color: #4A4E69; /* Color gris azulado */
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer {
+    background-color: #4A4E69; /* Color gris azulado */
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para la página de bienvenida */
+.welcome-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("fondo.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#loading-screen {
+    text-align: center;
+}
+
+#character {
+    margin: 0 auto;
+}
+
+#character img {
+    width: 150px;
+    height: auto;
+}
+
+#loading-screen h2 {
+    margin-top: 20px;
+    color: #9805b9;
+}
+
+/* Estilos para la página principal */
+.main-page_a {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('fondo.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header_a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color:  #6a2c70;
+}
+
+.menu-button_a{
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #FFD369;
+    cursor: pointer;
+}
+.header-button  button {
+    background-color: #1F2041;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    position: initial;
+    color: #FFFFFF;
+    
+}
+.header-button  button:hover {
+    background-color: #6a2c70;
+}
+
+
+
+
+#sidebar {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    position: absolute;
+    top: 135px;
+    left: 0;
+    height: 100%;
+    width: 200px;
+}
+
+#sidebar.active {
+    display: flex;
+}
+
+#sidebar ul {
+    list-style: armenian;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar ul li {
+    margin: 15px 0;
+}
+
+#sidebar ul li a {
+    color: #FFD369;
+    text-decoration: none;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.section {
+    background-color: rgba(26, 26, 46, 0.8); /* Fondo oscuro y opaco para no lastimar la vista */
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.advice-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para hacer que los contenedores sean más notorios */
+}
+
+.game-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para hacer que los contenedores sean más notorios */
+}
+
+#character-mirror {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transform: scaleX(-1); /* Rotar el personaje estilo espejo */
+}
+
+#character-mirror img {
+    width: 100px;
+    height: auto;
+}
+
+/* Estilos adicionales para dividir la sección central */
+.central-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+ /* Fondo oscuro y opaco para no lastimar la vista */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.advice-section {
+    flex: 1;
+    padding: 100px;
+    background-color: rgba(255, 213, 105, 0.8); /* Fondo amarillo para los consejos */
+}
+
+.game-section {
+    flex: 2;
+    
+    padding: 20px;
+    background-color: rgba(112, 214, 255, 0.8); /* Fondo azul claro para los juegos */
+}
+
+/* Estilos CSS  about*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A1A2E;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6A2C70;
+    padding: 10px;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.header-buttons a:hover {
+    background-color: #4A4E69;
+}
+
+.header-buttons #new-button {
+    order: 2;
+}
+
+.header-buttons #about-button {
+    margin-left: auto;
+}
+.header-buttons #login-button {
+    margin-left: auto;
+}
+
+.section {
+    background-color: #00B2CA;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.about-content {
+    background-color: #B83B5E;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.about-content p {
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #6A2C70;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A1A2E;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #6A2C70;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.header h1 {
+    margin: 0;
+    flex: 1; 
+    text-align: left; 
+    color: #FFFFFF;
+}
+
+.header .buttons-container {
+    position: absolute;
+    top: 40px; 
+    right: 70px; 
+    display: flex;
+    gap: 10px; 
+}
+
+.header .buttons-container button {
+    background-color: #1F2041;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.header .buttons-container button:hover {
+    background-color: #6A2C70;
+}
+
+/* Estilos del contenido principal */
+.main-content {
+    padding: 40px 0;
+}
+
+.section {
+    background-color: #00B2CA;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.profile-info, .profile-edit {
+    background-color: #E94560;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.profile-info h3, .profile-edit h3 {
+    margin-top: 0;
+}
+
+.profile-edit form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.profile-edit form input[type="text"],
+.profile-edit form input[type="email"],
+.profile-edit form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.profile-edit form button {
+    background-color: #1F2041;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.profile-edit form button:hover {
+    background-color: #6A2C70;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #6A2C70;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
