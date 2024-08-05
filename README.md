@@ -6,7 +6,7 @@ PixelPath es una plataforma de autoayuda con temática de videojuegos y estétic
 
 ## Misión de PixelPath
 
-En PixelPath, nuestra misión es proporcionar una plataforma de autoayuda innovadora y accesible para jugadores de videojuegos, utilizando la estética pixel art para crear un entorno acogedor. Nuestro objetivo es mejorar el bienestar emocional y mental de nuestros usuarios mediante la integración de tecnología de inteligencia artificial, que personaliza la experiencia del usuario y ofrece apoyo específico basado en datos recopilados a través de minijuegos interactivos. Nos comprometemos a llenar el vacío existente en recursos de autoayuda diseñados específicamente para la comunidad de jugadores, mejorando así su calidad de vida.
+En PixelPath, nuestra misión es proporcionar una plataforma de autoayuda innovadora y accesible para jugadores de videojuegos, utilizando la estética pixel art para crear un entorno acogedor. Nuestro objetivo es mejorar el bienestar emocional y mental de nuestros usuarios mediante la integración de tecnología de inteligencia artificial, que personaliza la experiencia del usuario y ofrece apoyo específico basado en datos recopilados a través de minijuegos interactivos. Nos comprometemos a llenar el vacío existente en recursos de autoayuda diseñados para la comunidad de jugadores, mejorando así su calidad de vida.
 
 ## Visión de PixelPath
 
@@ -15,11 +15,8 @@ Nuestra visión en PixelPath es ser líderes en la integración de videojuegos y
 ## Valores de PixelPath
 
 - **Innovación:** Nos comprometemos a innovar constantemente en el campo de la salud mental y emocional, utilizando tecnología de vanguardia para ofrecer soluciones efectivas a nuestros usuarios.
-
 - **Accesibilidad:** Valoramos la accesibilidad y la inclusión, asegurando que nuestra plataforma sea fácilmente utilizada por una amplia gama de jugadores de videojuegos.
-
 - **Integridad:** Nos guiamos por los más altos estándares éticos en la recopilación y protección de datos personales de nuestros usuarios, garantizando su privacidad y seguridad en todo momento.
-
 - **Comunidad:** Fomentamos una comunidad en línea positiva y de apoyo, donde los usuarios pueden compartir experiencias, consejos y motivaciones para promover el bienestar colectivo.
 
 ## Cronograma de Actividades
@@ -48,36 +45,16 @@ Nuestra visión en PixelPath es ser líderes en la integración de videojuegos y
 
 ## Objetivos Específicos de PixelPath
 
-1. **Desarrollar una pantalla de carga interactiva:**
-   - Crear una experiencia de bienvenida visualmente atractiva con personajes pixelados y un mensaje de bienvenida.
+- Desarrollar una pantalla de carga interactiva con personajes pixelados y un mensaje de bienvenida.
+- Implementar una página principal con un personaje interactivo, menú de navegación tipo hamburguesa y secciones de minijuegos y consejos.
+- Integrar minijuegos que recopilen datos de usuario y proporcionar consejos aleatorios a través de un personaje interactivo.
+- Crear un jardín virtual interactivo como metáfora de crecimiento personal y bienestar.
+- Utilizar IA para analizar datos de minijuegos y proporcionar recomendaciones personalizadas.
+- Establecer una comunidad en línea donde los usuarios puedan compartir experiencias y consejos.
 
-2. **Implementar una página principal personalizada:**
-   - Diseñar una interfaz intuitiva que incluya un personaje interactivo y un menú de navegación tipo hamburguesa.
-   - Incluir secciones de minijuegos y consejos para mejorar el bienestar emocional de los usuarios.
+## Tipo de Mercado
 
-3. **Integrar minijuegos y consejos interactivos:**
-   - Desarrollar minijuegos que no solo entretengan, sino que también recopilen datos para personalizar la experiencia del usuario.
-   - Implementar un sistema de consejos aleatorios proporcionados por un personaje interactivo para mejorar el bienestar del usuario.
-
-4. **Crear un jardín virtual interactivo:**
-   - Permitir a los usuarios interactuar y cuidar un jardín virtual como metáfora de su crecimiento personal y bienestar.
-
-5. **Analizar datos mediante inteligencia artificial:**
-   - Utilizar IA para analizar datos recopilados de los minijuegos y proporcionar recomendaciones personalizadas basadas en el comportamiento del usuario.
-
-6. **Establecer una comunidad en línea:**
-   - Crear un espacio donde los usuarios puedan compartir experiencias, consejos y apoyo mutuo.
-
-7. **Optimizar la usabilidad y el rendimiento:**
-   - Asegurar que la plataforma sea fácil de navegar y compatible con diferentes dispositivos y navegadores.
-   - Optimizar el tiempo de carga de la página y la respuesta a las interacciones del usuario.
-
-8. **Garantizar la seguridad y protección de datos:**
-   - Implementar medidas de seguridad robustas para proteger los datos personales de los usuarios y prevenir accesos no autorizados.
-
-9. **Mantener el sistema y ofrecer soporte técnico:**
-   - Desarrollar un código modular y bien documentado que facilite futuras actualizaciones y resolución de problemas técnicos.
-
+PixelPath está dirigido principalmente a jugadores de videojuegos que buscan mejorar su bienestar emocional y mental. El mercado objetivo incluye tanto a hombres como mujeres, con edades generalmente entre 16 y 40 años, desde jugadores casuales hasta entusiastas que dedican mucho tiempo a los videojuegos. Los usuarios de PixelPath buscan una plataforma que combine entretenimiento con minijuegos, una estética pixel art atractiva y herramientas de apoyo emocional y mental.
 
 ## Alcances
 
@@ -97,57 +74,57 @@ Nuestra visión en PixelPath es ser líderes en la integración de videojuegos y
 
 PixelPath está dirigido principalmente a jugadores de videojuegos que buscan mejorar su bienestar emocional y mental. El mercado objetivo incluye tanto a hombres como a mujeres, con edades comprendidas generalmente entre los 16 y 40 años. Este grupo demográfico abarca desde jugadores casuales hasta entusiastas que dedican considerable tiempo a los videojuegos. Los usuarios de PixelPath están interesados en una plataforma que no solo les brinde entretenimiento con minijuegos y una estética pixel art atractiva, sino que también ofrezca herramientas de apoyo emocional y mental mediante consejos personalizados y análisis basados en inteligencia artificial.
 
+
 ## Justificación
 
-PixelPath surge para abordar la creciente necesidad de recursos de autoayuda específicamente diseñados para la comunidad de jugadores, combinando la accesibilidad de una plataforma digital con la estética acogedora del arte pixelado. Con un enfoque en la salud mental y emocional, PixelPath se posiciona como una herramienta innovadora que utiliza inteligencia artificial para personalizar la experiencia del usuario y proporcionar apoyo adaptado a las necesidades individuales.
-
+PixelPath surge para abordar la creciente necesidad de recursos de autoayuda específicamente diseñados para la comunidad de jugadores. Combina la accesibilidad de una plataforma digital con la estética acogedora del arte pixelado. Con un enfoque en la salud mental y emocional, PixelPath utiliza inteligencia artificial para personalizar la experiencia del usuario y proporcionar apoyo adaptado a las necesidades individuales.
 
 ## Requerimientos Funcionales
 
-1. **Pantalla de Carga:**
-   - Mostrar un personaje pixelado y un fondo temático al cargar la página.
-   - Proporcionar un mensaje de bienvenida.
+### Pantalla de Carga
+- Mostrar un personaje pixelado y un fondo temático al cargar la página.
+- Proporcionar un mensaje de bienvenida.
 
-2. **Página Principal:**
-   - Incluir un personaje interactivo en la esquina inferior derecha.
-   - Menú de navegación tipo hamburguesa con opciones: "Mi Perfil", "Consejos", "Jardín", "Sueños", "Metas" y "Mis Gustos".
-   - Mostrar contenedores con minijuegos y consejos.
+### Página Principal
+- Incluir un personaje interactivo en la esquina inferior derecha.
+- Menú de navegación tipo hamburguesa con opciones como "Mi Perfil", "Consejos", "Jardín", "Sueños", "Metas" y "Mis Gustos".
+- Mostrar contenedores con minijuegos y consejos.
 
-3. **Minijuegos y Consejos:**
-   - Integrar minijuegos que recopilen datos de usuario.
-   - Proporcionar consejos aleatorios a través del personaje interactivo.
+### Minijuegos y Consejos
+- Integrar minijuegos que recopilen datos de usuario.
+- Proporcionar consejos aleatorios a través del personaje interactivo.
 
-4. **Jardín Virtual:**
-   - Permitir a los usuarios interactuar y cuidar de un jardín virtual.
+### Jardín Virtual
+- Permitir a los usuarios interactuar y cuidar de un jardín virtual.
 
-5. **Análisis de Datos:**
-   - Analizar datos de minijuegos con IA para personalizar la experiencia del usuario.
+### Análisis de Datos
+- Utilizar IA para analizar datos de minijuegos y personalizar la experiencia del usuario.
 
-6. **Comunidad en Línea:**
-   - Crear un espacio donde los usuarios puedan compartir experiencias y consejos.
+### Comunidad en Línea
+- Crear un espacio donde los usuarios puedan compartir experiencias y consejos.
 
 ## Requerimientos No Funcionales
 
-1. **Usabilidad:**
-   - Interfaz intuitiva y fácil de navegar.
-   - Diseño atractivo y coherente con la temática pixel art.
+### Usabilidad
+- Interfaz intuitiva y fácil de navegar.
+- Diseño atractivo y coherente con la temática pixel art.
 
-2. **Rendimiento:**
-   - Tiempo de carga de la página reducido.
-   - Respuesta rápida a las interacciones del usuario.
+### Rendimiento
+- Tiempo de carga de la página reducido.
+- Respuesta rápida a las interacciones del usuario.
 
-3. **Seguridad:**
-   - Protección de datos personales de los usuarios.
-   - Implementación de medidas contra accesos no autorizados.
+### Seguridad
+- Protección de datos personales de los usuarios.
+- Implementación de medidas contra accesos no autorizados.
 
-4. **Compatibilidad:**
-   - Compatible con los navegadores web más comunes.
-   - Adaptabilidad a diferentes dispositivos y tamaños de pantalla.
+### Compatibilidad
+- Compatible con los navegadores web más comunes.
+- Adaptabilidad a diferentes dispositivos y tamaños de pantalla.
 
-5. **Mantenimiento:**
-   - Código modular y documentado para facilitar futuras actualizaciones.
-   - Soporte y resolución de problemas técnicos.
-
+### Mantenimiento
+- Código modular y bien documentado para futuras actualizaciones.
+- Soporte y resolución de problemas técnicos.
+  
 ## Consideraciones Legales y Éticas
 
 PixelPath se compromete a cumplir con las normativas legales y prácticas éticas. A continuación se detallan nuestras políticas:
