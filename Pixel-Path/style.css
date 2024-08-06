@@ -406,6 +406,10 @@ body {
     color: #FFD369;
     cursor: pointer;
 }
+.header-button{
+    position: relative;
+    left: 33px;
+}
 .header-button  button {
     background-color: #1F2041;
     border: none;
@@ -429,7 +433,7 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 10px;
     position: absolute;
-    top: 135px;
+    top: 92px;
     left: 0;
     height: 100%;
     width: 200px;
@@ -547,6 +551,7 @@ body {
 }
 
 .header-buttons {
+    
     display: flex;
     align-items: center;
 }
