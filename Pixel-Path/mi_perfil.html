@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Perfil - PixelPath</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="cabezera.png" type="image/png" >
+    <link rel="icon" href="cabezera.png" type="image/png">
 </head>
 <body>
     <header class="header">
@@ -13,7 +13,7 @@
             <h1>PixelPath</h1>
             <div class="buttons-container">
                 <button onclick="location.href='about.html';" class="button-right">Sobre mí</button>
-                <button onclick="location.href='borrador.html';" class="button-left">Cerrar sesión</button>
+                <button onclick="location.href='logout.php';" class="button-left">Cerrar sesión</button>
             </div>
         </div>
     </header>
@@ -23,20 +23,17 @@
             <div class="container">
                 <h2>Mi Perfil</h2>
                 <div class="profile-section">
-                    <div class="profile-info">
-                        <h3>Información Personal</h3>
-                        <p><strong>Nombre de usuario:</strong> usuario123</p>
-                        <p><strong>Email:</strong> usuario123@example.com</p>
-                        <p><strong>Fecha de registro:</strong> 01/01/2024</p>
+                    <div id="profile-info" class="profile-info">
+                        <!-- Información del perfil cargada dinámicamente -->
                     </div>
                     <div class="profile-edit">
                         <h3>Editar Perfil</h3>
-                        <form action="update_profile.html" method="POST" class="edit-profile-form">
+                        <form id="edit-profile-form" action="update_profile.php" method="POST" class="edit-profile-form">
                             <label for="username">Nombre de usuario:</label>
-                            <input type="text" id="username" name="username" value="usuario123" required>
+                            <input type="text" id="username" name="username" required>
 
                             <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" value="usuario123@example.com" required>
+                            <input type="email" id="email" name="email" required>
 
                             <label for="password">Contraseña:</label>
                             <input type="password" id="password" name="password">
@@ -54,5 +51,7 @@
             <p>&copy; 2024 PixelPath. Todos los derechos reservados.</p>
         </div>
     </footer>
+
+    <script src="profile.js"></script>
 </body>
 </html>
