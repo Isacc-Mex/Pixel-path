@@ -5,7 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sueños - PixelPath</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="cabezera.png" type="image/png" >
+    <link rel="icon" href="cabezera.png" type="image/png">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const dreamsContainer = document.getElementById('dreams-container');
+            const form = document.getElementById('add-dream-form');
+            let editingDreamId = null; // Para almacenar el ID del sueño que se está editando
+
+            // Función para cargar los sueños
+            function loadDreams() {
+                fetch('sueños.php')
+                    .then(response => response.json())
+                    .then(data => {
+                        dreamsContainer.innerHTML = '';
+                        data.forEach(dream => {
+                            const dreamElement = document.createElement('div');
+                            dreamElement.classList.add('dream');
+                            dreamElement.innerHTML = `
+                                <div class="dream-content">
+                                    <h3>Sueño</h3>
+                                    <p>${dream.contenido}</p>
+                                </div>
+                                <div class="dream-actions">
+                                    <button class="edit-button" data-id="${dream.id}">Editar</button>
+                                    <button class="delete-button" data-id="${dream.id}">Eliminar</button>
+                                </div>
+                            `;
+                            dreamsContainer.appendChild(dreamElement);
+                        });
+
+                        // Agregar eventos de edición y eliminación a los botones
+                        document.querySelectorAll('.edit-button').forEach(button => {
+                            button.addEventListener('click', function() {
+                                const id = this.getAttribute('data-id');
+                                const dreamContent = this.closest('.dream').querySelector('.dream-content p').innerText;
+                                
+                                // Rellenar el formulario con el contenido del sueño seleccionado para editar
+                                document.getElementById('dream-content').value = dreamContent;
+                                editingDreamId = id;
+                            });
+                        });
+
+                        document.querySelectorAll('.delete-button').forEach(button => {
+                            button.addEventListener('click', function() {
+                                const id = this.getAttribute('data-id');
+                                if (confirm('¿Estás seguro de que quieres eliminar este sueño?')) {
+                                    fetch('sueños.php', {
+                                        method: 'POST',
+                                        headers: {
+                                            'Content-Type': 'application/x-www-form-urlencoded'
+                                        },
+                                        body: new URLSearchParams({
+                                            'action': 'delete',
+                                            'id': id
+                                        })
+                                    })
+                                    .then(response => response.json())
+                                    .then(result => {
+                                        if (result.status === 'success') {
+                                            loadDreams();
+                                        } else {
+                                            alert('Error al eliminar el sueño.');
+                                        }
+                                    });
+                                }
+                            });
+                        });
+                    });
+            }
+
+            // Cargar sueños al iniciar
+            loadDreams();
+
+            // Manejador para el evento submit del formulario
+            form.addEventListener('submit', function(event) {
+                event.preventDefault(); // Evita que el formulario se envíe y recargue la página
+
+                const dreamContent = document.getElementById('dream-content').value;
+
+                if (dreamContent.trim() === '') {
+                    alert('Por favor ingresa un sueño válido.');
+                    return;
+                }
+
+                let url = 'sueños.php';
+                let method = 'POST';
+                let body = new URLSearchParams({
+                    'dream-content': dreamContent
+                });
+
+                if (editingDreamId) {
+                    // Editar un sueño existente
+                    url = 'sueños.php';
+                    method = 'POST';
+                    body = new URLSearchParams({
+                        'action': 'edit',
+                        'id': editingDreamId,
+                        'dream-content': dreamContent
+                    });
+                }
+
+                fetch(url, {
+                    method: method,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: body
+                })
+                .then(response => response.json())
+                .then(result => {
+                    if (result.status === 'success') {
+                        document.getElementById('dream-content').value = '';
+                        editingDreamId = null; // Limpiar el ID de edición
+                        loadDreams();
+                    } else {
+                        alert('Error: ' + result.message);
+                    }
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <header class="header">
@@ -13,7 +132,7 @@
             <h1>PixelPath</h1>
             <div class="buttons-container">
                 <button onclick="location.href='about.html';" class="button-right">Sobre mí</button>
-                <button onclick="location.href='borrador.html';" class="button-left">Cerrar sesión</button>
+                <button onclick="location.href='logout.php';" class="button-left">Cerrar sesión</button>
             </div>
         </div>
     </header>
@@ -33,47 +152,6 @@
                         <button type="submit">Agregar Sueño</button>
                     </form>
                 </div>
-                
-                <script>
-                    // Captura el formulario y el contenedor de sueños
-                    const form = document.getElementById('add-dream-form');
-                    const dreamsContainer = document.getElementById('dreams-container');
-                
-                    // Manejador para el evento submit del formulario
-                    form.addEventListener('submit', function(event) {
-                        event.preventDefault(); // Evita que el formulario se envíe y recargue la página
-                
-                        // Captura el contenido del sueño desde el textarea
-                        const dreamContent = document.getElementById('dream-content').value;
-                
-                        // Valida que el contenido del sueño no esté vacío
-                        if (dreamContent.trim() === '') {
-                            alert('Por favor ingresa un sueño válido.');
-                            return;
-                        }
-                
-                        // Crea un nuevo elemento de sueño
-                        const dreamElement = document.createElement('div');
-                        dreamElement.classList.add('dream');
-                        dreamElement.innerHTML = `
-                            <div class="dream-content">
-                                <h3>Sueño</h3>
-                                <p>${dreamContent}</p>
-                            </div>
-                            <div class="dream-actions">
-                                <button class="edit-button">Editar</button>
-                                <button class="delete-button">Eliminar</button>
-                            </div>
-                        `;
-                
-                        // Agrega el nuevo sueño al contenedor de sueños
-                        dreamsContainer.appendChild(dreamElement);
-                
-                        // Limpia el textarea después de agregar el sueño
-                        document.getElementById('dream-content').value = '';
-                    });
-                </script>
-                
             </div>
         </section>
     </main>
