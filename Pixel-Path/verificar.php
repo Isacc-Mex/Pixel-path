@@ -27,6 +27,6 @@ if ($user && password_verify($password, $user['contrasena'])) {
     exit();
 } else {
     // Usuario no encontrado o contraseña incorrecta
-    echo '<script>alert("Usuario o contraseña incorrectos"); window.location.href="login.php";</script>';
+    echo '<script>alert("Usuario o contraseña incorrectos"); window.location.href="borrador.html";</script>';
 }
 ?>
